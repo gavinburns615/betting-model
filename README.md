@@ -13,11 +13,12 @@ repo: see [Limitations](#limitations) below.
 
 ## Viewing the report
 
-Open [report/presnap_edge_backtest.html](report/presnap_edge_backtest.html)
-directly in a browser (no server needed). It shows every pick week by week —
-past results checked against final scores, and next week's picks before
-kickoff — plus a break-even/"is this specific price worth it" check on each
-one.
+**[Live version](https://claude.ai/code/artifact/e91209a2-8178-494c-be97-81f81b5c44ef)**
+— or open [report/presnap_edge_backtest.html](report/presnap_edge_backtest.html)
+directly in a browser, no server needed. Either way it shows every pick week
+by week — past results checked against final scores, and next week's picks
+before kickoff — plus a break-even/"is this specific price worth it" check
+on each one.
 
 ## How it's built
 

@@ -1,0 +1,62 @@
+{
+  "predictability_signal": {
+    "n_bets": 1486,
+    "wins": 748,
+    "losses": 738,
+    "win_rate": 0.5033647375504711,
+    "win_rate_vs_50pct_z": 0.2594123185383094,
+    "flat_total_pnl_units": -43.19638856367246,
+    "flat_roi_per_bet": -0.029068902128985503,
+    "kelly_start_bankroll": 1000.0,
+    "kelly_end_bankroll": 156.8385294478735,
+    "kelly_total_return_pct": -0.8431614705521265,
+    "weekly_sharpe_raw": -0.12225834818414127,
+    "weekly_sharpe_season_annualized": -0.5186982423460339,
+    "max_drawdown_units_flat": -63.962771304289674,
+    "n_weeks": 101,
+    "max_drawdown_pct_kelly": -0.8998863277989008
+  },
+  "predictability_signal_relative": {
+    "n_bets": 1486,
+    "wins": 772,
+    "losses": 714,
+    "win_rate": 0.5195154777927322,
+    "win_rate_vs_50pct_z": 1.504591447522198,
+    "flat_total_pnl_units": 2.9177087122769247,
+    "flat_roi_per_bet": 0.001963464813106948,
+    "kelly_start_bankroll": 1000.0,
+    "kelly_end_bankroll": 50.198727168371455,
+    "kelly_total_return_pct": -0.9498012728316286,
+    "weekly_sharpe_raw": 0.02039332807480602,
+    "weekly_sharpe_season_annualized": 0.08652156343594401,
+    "max_drawdown_units_flat": -39.05525850515837,
+    "n_weeks": 101,
+    "max_drawdown_pct_kelly": -0.9767731497962951
+  },
+  "baseline_home": {
+    "n_bets": 1486,
+    "wins": 738,
+    "losses": 748,
+    "win_rate": 0.49663526244952894,
+    "win_rate_vs_50pct_z": -0.2594123185383094,
+    "flat_total_pnl_units": -62.77123008429485,
+    "flat_roi_per_bet": -0.042241742990777154,
+    "weekly_sharpe_raw": -0.18339262745825463,
+    "weekly_sharpe_season_annualized": -0.7780690229721005,
+    "max_drawdown_units_flat": -65.69653638492125,
+    "n_weeks": 101
+  },
+  "baseline_coinflip": {
+    "n_bets": 1486,
+    "wins": 747,
+    "losses": 739,
+    "win_rate": 0.5026917900403769,
+    "win_rate_vs_50pct_z": 0.20752985483065095,
+    "flat_total_pnl_units": -44.74772770948355,
+    "flat_roi_per_bet": -0.030112871944470758,
+    "weekly_sharpe_raw": -0.1153931005807164,
+    "weekly_sharpe_season_annualized": -0.48957146353659536,
+    "max_drawdown_units_flat": -52.90598523875433,
+    "n_weeks": 101
+  }
+}

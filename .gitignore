@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw/intermediate pulls -- large-ish and fully reproducible via src/fetch_games.py,
+# src/build_predictability_signal.py, src/build_dataset.py. Not needed to read the
+# results, so kept out of the repo (mirrors pass-run's own data/ convention).
+data/raw/games_odds.parquet
+data/processed/game_dataset.parquet
+data/processed/predictability_signal.parquet

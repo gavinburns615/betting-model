@@ -1,11 +1,9 @@
 # NFL Betting Strategy Backtester
 
-Tests whether [pass-run](https://github.com/gavinburns615/pass-run)'s presnap
-run/pass classifier carries any real information for betting against the
-spread — specifically, whether a team being *situationally predictable*
-(the classifier can call its plays confidently even accounting for
-down/distance/personnel) correlates with under/overperforming its closing
-line.
+Backtests an NFL spread-betting strategy the right way: strict time-ordering
+(nothing a bet uses is computed from data that didn't exist yet), walk-forward
+validation (tune on earlier seasons, test on strictly later ones), and a
+leak-detection sanity check that has to pass before any result is trusted.
 
 **The honest result: a weak, statistically inconclusive edge (52.0%
 out-of-sample win rate, p = 0.14) — not something to bet real money on.**
@@ -13,25 +11,28 @@ Getting to that number required catching and fixing a real bug in the first
 version of the backtest, which is arguably the more interesting part of this
 repo: see [Limitations](#limitations) below.
 
-A [live report](report/presnap_edge_backtest.html) (open the file directly in
-a browser, or run the pipeline yourself) shows every pick week by week — past
-results checked against final scores, and next week's picks before kickoff —
-plus a break-even/"is this specific price worth it" check on each one.
+## Viewing the report
+
+Open [report/presnap_edge_backtest.html](report/presnap_edge_backtest.html)
+directly in a browser (no server needed). It shows every pick week by week —
+past results checked against final scores, and next week's picks before
+kickoff — plus a break-even/"is this specific price worth it" check on each
+one.
 
 ## How it's built
 
-1. **Data pipeline** — [nflverse](https://github.com/nflverse) public
-   schedules via `nfl_data_py` (free, no key): final scores, closing
-   spread/total/moneyline odds for both sides, and weather, 2016–2026.
-   Zero missing odds values across 2,639 completed regular-season games.
-2. **Signal** — derived from pass-run's own season-level walk-forward
-   predictions (276K plays, 2018–2025; every season scored by a model
-   trained only on strictly earlier seasons), summarized per team-game and
-   recency-weighted (EWMA, span 8) over that team's *prior* games only —
-   verified by direct recomputation that no game's signal ever uses that
-   game's own plays or anything later.
-3. **Strategy** — bet the side a 1-variable logistic regression favors
-   (home team's signal minus away team's), direction re-fit from only prior
+1. **Data** — [nflverse](https://github.com/nflverse) public schedules via
+   `nfl_data_py` (free, no key): final scores, closing spread/total/moneyline
+   odds for both sides, and weather, 2016–2026. Zero missing odds values
+   across 2,639 completed regular-season games.
+2. **Signal** — a per-team "predictability" score built from an existing
+   presnap play-prediction model I trained separately
+   ([pass-run](https://github.com/gavinburns615/pass-run)), turned into a
+   presnap-safe, recency-weighted feature: each team's score going into a
+   game only ever uses that team's *prior* games, verified by direct
+   recomputation that nothing leaks in from the game being bet on or later.
+3. **Strategy** — bet the side a 1-variable logistic regression favors (home
+   team's signal minus away team's), direction re-fit from only prior
    seasons at every walk-forward fold — never fixed in advance, never
    peeking at the test season.
 4. **Backtest** — expanding-window walk-forward, 2020–2025 test seasons,
@@ -51,7 +52,7 @@ in any fold, regardless of what the signal said; the "strategy" had quietly
 degenerated into a disguised *always bet away* rule. The early hot streak
 lined up exactly with a real, temporary, well-documented anomaly (reduced
 home-field advantage during 2020's fan-less, COVID-era stadiums), not with
-anything the classifier was measuring.
+anything the signal was actually measuring.
 
 The fix — betting on the *sign* of the signal difference directly, with the
 intercept removed entirely — moved the result from indistinguishable-from-
@@ -77,12 +78,12 @@ venv/bin/pip install -r requirements.txt
 ## Running the pipeline
 
 ```bash
-venv/bin/python3 src/fetch_games.py                 # games, closing odds, weather (2016-2026)
-venv/bin/python3 src/build_predictability_signal.py  # presnap-safe predictability signal from pass-run's predictions
-venv/bin/python3 src/build_dataset.py                # joins games + signal into one time-indexed dataset
-venv/bin/python3 src/backtest_ats.py                 # walk-forward backtest: original (buggy) + corrected strategy + 2 baselines
-venv/bin/python3 src/report.py                       # full metrics, sanity check, cumulative P/L chart
-venv/bin/python3 src/predict_upcoming.py             # forward-looking picks for the current season
+venv/bin/python3 src/fetch_games.py                  # games, closing odds, weather (2016-2026)
+venv/bin/python3 src/build_predictability_signal.py  # presnap-safe predictability signal
+venv/bin/python3 src/build_dataset.py                 # joins games + signal into one time-indexed dataset
+venv/bin/python3 src/backtest_ats.py                  # walk-forward backtest: original (buggy) + corrected strategy + 2 baselines
+venv/bin/python3 src/report.py                        # full metrics, sanity check, cumulative P/L chart
+venv/bin/python3 src/predict_upcoming.py              # forward-looking picks for the current season
 ```
 
 `report/presnap_edge_backtest.html` is a static snapshot of the interactive

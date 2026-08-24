@@ -143,6 +143,18 @@
   .season-tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
   .season-record { margin-left: auto; font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--muted); }
 
+  .week-select-row { display: flex; align-items: center; gap: 10px; margin-top: 14px; }
+  .week-select-row label { font-family: "IBM Plex Mono", monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+  .week-select-row select {
+    font-family: "IBM Plex Sans", sans-serif; font-size: 14px; font-weight: 600; color: var(--ink);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 7px; padding: 7px 30px 7px 12px;
+    cursor: pointer; appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2352514e' stroke-width='1.5' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 12px center;
+  }
+  .week-select-row select:hover { border-color: var(--accent); }
+  .week-select-row .week-record { font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--muted); margin-left: auto; }
+
   .future-banner {
     display: none; margin-top: 18px; padding: 12px 16px; border-radius: 9px;
     background: var(--accent-bg); border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
@@ -258,6 +270,11 @@
     <div class="season-tabs-row">
       <div class="season-tabs" id="season-tabs"></div>
       <div class="season-record" id="season-record"></div>
+    </div>
+    <div class="week-select-row">
+      <label for="week-select">Week</label>
+      <select id="week-select"></select>
+      <span class="week-record" id="week-select-record"></span>
     </div>
     <div id="week-groups"></div>
 
@@ -396,10 +413,16 @@ function pickLine(g) {
 
 let activeScope = 'past'; // 'past' | 'future'
 let activeSeason = null;
+let activeWeek = null; // null = "All weeks"
 
 function seasonsForScope(scope) {
   const seasons = [...new Set(GAMES_LOG.filter(g => g.future === (scope === 'future')).map(g => g.season))];
   return seasons.sort((a, b) => b - a);
+}
+
+function weeksForCurrent() {
+  const seasonGames = GAMES_LOG.filter(g => g.season === activeSeason && g.future === (activeScope === 'future'));
+  return [...new Set(seasonGames.map(g => g.week))].sort((a, b) => a - b);
 }
 
 function renderScopeTabs() {
@@ -412,7 +435,9 @@ function renderScopeTabs() {
     btn.addEventListener('click', () => {
       activeScope = scope;
       activeSeason = seasonsForScope(scope)[0];
-      renderScopeTabs(); renderSeasonTabs(); renderWeekGroups();
+      const weeks = weeksForCurrent();
+      activeWeek = scope === 'future' ? weeks[0] : weeks[weeks.length - 1];
+      renderScopeTabs(); renderSeasonTabs(); renderWeekSelect(); renderWeekGroups();
     });
     el.appendChild(btn);
   });
@@ -435,9 +460,26 @@ function renderSeasonTabs() {
     const btn = document.createElement('button');
     btn.className = 'season-tab' + (s === activeSeason ? ' active' : '');
     btn.textContent = s;
-    btn.addEventListener('click', () => { activeSeason = s; renderSeasonTabs(); renderWeekGroups(); });
+    btn.addEventListener('click', () => {
+      activeSeason = s;
+      const weeks = weeksForCurrent();
+      activeWeek = activeScope === 'future' ? weeks[0] : weeks[weeks.length - 1];
+      renderSeasonTabs(); renderWeekSelect(); renderWeekGroups();
+    });
     tabs.appendChild(btn);
   });
+}
+
+function renderWeekSelect() {
+  const weeks = weeksForCurrent();
+  if (!weeks.includes(activeWeek)) activeWeek = activeScope === 'future' ? weeks[0] : weeks[weeks.length - 1];
+  const sel = document.getElementById('week-select');
+  sel.innerHTML = `<option value="">All weeks</option>` + weeks.map(w => `<option value="${w}">Week ${w}</option>`).join('');
+  sel.value = String(activeWeek);
+  sel.onchange = () => {
+    activeWeek = sel.value === '' ? null : Number(sel.value);
+    renderWeekGroups();
+  };
 }
 
 function renderWeekGroups() {
@@ -452,7 +494,20 @@ function renderWeekGroups() {
     recordEl.textContent = `${wins}-${seasonGames.length - wins} that season`;
   }
 
-  const weeks = [...new Set(seasonGames.map(g => g.week))].sort((a, b) => a - b);
+  const weekRecordEl = document.getElementById('week-select-record');
+  if (activeWeek === null) {
+    weekRecordEl.textContent = '';
+  } else if (activeScope === 'future') {
+    const wkGames = seasonGames.filter(g => g.week === activeWeek);
+    const withOdds = wkGames.filter(g => g.has_odds).length;
+    weekRecordEl.textContent = `${wkGames.length} games · ${withOdds} with lines`;
+  } else {
+    const wkGames = seasonGames.filter(g => g.week === activeWeek);
+    const wkWins = wkGames.filter(g => g.bet_won).length;
+    weekRecordEl.textContent = `${wkWins}-${wkGames.length - wkWins} that week`;
+  }
+
+  const weeks = activeWeek === null ? weeksForCurrent() : [activeWeek];
   const container = document.getElementById('week-groups');
   container.innerHTML = '';
 
@@ -599,8 +654,10 @@ function renderTop2() {
 }
 
 activeSeason = seasonsForScope('past')[0];
+activeWeek = weeksForCurrent().slice(-1)[0];
 renderScopeTabs();
 renderSeasonTabs();
+renderWeekSelect();
 renderWeekGroups();
 renderOddsExamples();
 renderWorthItStat();

@@ -85,10 +85,20 @@ def main():
             "spread_line": float(g["spread_line"]) if pd.notna(g["spread_line"]) else None,
             "has_odds": bool(has_odds), "bet_side": bet_side, "bet_odds": bet_odds, "no_pick": no_pick,
             "home_signal": round(home_sig, 4), "away_signal": round(away_sig, 4),
+            "abs_signal": round(abs(signal_diff), 4),
         })
 
     if missing_teams:
         print(f"WARNING: no current predictability state for: {missing_teams} (bye/relocation edge case)")
+
+    # Rank by signal magnitude within each week (presnap-safe -- no odds or outcomes
+    # involved) to flag the top-2 highest-conviction picks, same convention as the
+    # historical log's is_top2 flag.
+    recs_df = pd.DataFrame(records)
+    if len(recs_df):
+        recs_df["rank_in_week"] = recs_df.groupby("week")["abs_signal"].rank(ascending=False, method="first")
+        recs_df["is_top2"] = recs_df["rank_in_week"] <= 2
+        records = recs_df.drop(columns=["rank_in_week"]).to_dict("records")
 
     with open(OUTPUT_PATH, "w") as f:
         json.dump(records, f, indent=2)

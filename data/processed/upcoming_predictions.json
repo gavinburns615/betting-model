@@ -12,7 +12,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2468,
-    "away_signal": 0.2665
+    "away_signal": 0.2665,
+    "abs_signal": 0.0197,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -27,7 +29,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2473,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0062,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -42,7 +46,9 @@
     "bet_odds": -102.0,
     "no_pick": false,
     "home_signal": 0.2415,
-    "away_signal": 0.2375
+    "away_signal": 0.2375,
+    "abs_signal": 0.004,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -57,7 +63,9 @@
     "bet_odds": -105.0,
     "no_pick": false,
     "home_signal": 0.2325,
-    "away_signal": 0.2491
+    "away_signal": 0.2491,
+    "abs_signal": 0.0166,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -72,7 +80,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2563,
-    "away_signal": 0.2413
+    "away_signal": 0.2413,
+    "abs_signal": 0.015,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -87,7 +97,9 @@
     "bet_odds": -115.0,
     "no_pick": false,
     "home_signal": 0.2597,
-    "away_signal": 0.256
+    "away_signal": 0.256,
+    "abs_signal": 0.0037,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -102,7 +114,9 @@
     "bet_odds": -108.0,
     "no_pick": false,
     "home_signal": 0.2215,
-    "away_signal": 0.2354
+    "away_signal": 0.2354,
+    "abs_signal": 0.014,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -117,7 +131,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2339,
-    "away_signal": 0.2455
+    "away_signal": 0.2455,
+    "abs_signal": 0.0116,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -132,7 +148,9 @@
     "bet_odds": -120.0,
     "no_pick": false,
     "home_signal": 0.2628,
-    "away_signal": 0.2485
+    "away_signal": 0.2485,
+    "abs_signal": 0.0143,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -147,7 +165,9 @@
     "bet_odds": 100.0,
     "no_pick": false,
     "home_signal": 0.2686,
-    "away_signal": 0.2497
+    "away_signal": 0.2497,
+    "abs_signal": 0.0189,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -162,7 +182,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2745
+    "away_signal": 0.2745,
+    "abs_signal": 0.0088,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -177,7 +199,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2464,
-    "away_signal": 0.2462
+    "away_signal": 0.2462,
+    "abs_signal": 0.0001,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -192,7 +216,9 @@
     "bet_odds": -102.0,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2264
+    "away_signal": 0.2264,
+    "abs_signal": 0.0393,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -207,7 +233,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2188,
-    "away_signal": 0.2373
+    "away_signal": 0.2373,
+    "abs_signal": 0.0185,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -222,7 +250,9 @@
     "bet_odds": -115.0,
     "no_pick": false,
     "home_signal": 0.2179,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0356,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -237,7 +267,9 @@
     "bet_odds": -115.0,
     "no_pick": false,
     "home_signal": 0.2527,
-    "away_signal": 0.2556
+    "away_signal": 0.2556,
+    "abs_signal": 0.003,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -252,7 +284,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.256,
-    "away_signal": 0.2563
+    "away_signal": 0.2563,
+    "abs_signal": 0.0003,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -267,7 +301,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2485,
-    "away_signal": 0.2415
+    "away_signal": 0.2415,
+    "abs_signal": 0.007,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -282,7 +318,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2354,
-    "away_signal": 0.2413
+    "away_signal": 0.2413,
+    "abs_signal": 0.0059,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -297,7 +335,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2375,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0282,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -312,7 +352,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2597,
-    "away_signal": 0.2325
+    "away_signal": 0.2325,
+    "abs_signal": 0.0272,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -327,7 +369,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2665,
-    "away_signal": 0.2628
+    "away_signal": 0.2628,
+    "abs_signal": 0.0037,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -342,7 +386,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2497,
-    "away_signal": 0.2264
+    "away_signal": 0.2264,
+    "abs_signal": 0.0233,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -357,7 +403,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2491,
-    "away_signal": 0.2455
+    "away_signal": 0.2455,
+    "abs_signal": 0.0036,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -372,7 +420,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2686,
-    "away_signal": 0.2188
+    "away_signal": 0.2188,
+    "abs_signal": 0.0498,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -387,7 +437,9 @@
     "bet_odds": -115.0,
     "no_pick": false,
     "home_signal": 0.2556,
-    "away_signal": 0.2339
+    "away_signal": 0.2339,
+    "abs_signal": 0.0217,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -402,7 +454,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2464
+    "away_signal": 0.2464,
+    "abs_signal": 0.0193,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -417,7 +471,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2745,
-    "away_signal": 0.2468
+    "away_signal": 0.2468,
+    "abs_signal": 0.0277,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -432,7 +488,9 @@
     "bet_odds": -105.0,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2373
+    "away_signal": 0.2373,
+    "abs_signal": 0.0161,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -447,7 +505,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2462
+    "away_signal": 0.2462,
+    "abs_signal": 0.0073,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -462,7 +522,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2527,
-    "away_signal": 0.2215
+    "away_signal": 0.2215,
+    "abs_signal": 0.0312,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -477,7 +539,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2473,
-    "away_signal": 0.2179
+    "away_signal": 0.2179,
+    "abs_signal": 0.0294,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -492,7 +556,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2264,
-    "away_signal": 0.2485
+    "away_signal": 0.2485,
+    "abs_signal": 0.0221,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -507,7 +573,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.256,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0097,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -522,7 +590,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2455,
-    "away_signal": 0.2415
+    "away_signal": 0.2415,
+    "abs_signal": 0.004,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -537,7 +607,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2563,
-    "away_signal": 0.2497
+    "away_signal": 0.2497,
+    "abs_signal": 0.0066,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -552,7 +624,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2215,
-    "away_signal": 0.2597
+    "away_signal": 0.2597,
+    "abs_signal": 0.0383,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -567,7 +641,9 @@
     "bet_odds": -115.0,
     "no_pick": false,
     "home_signal": 0.2339,
-    "away_signal": 0.2665
+    "away_signal": 0.2665,
+    "abs_signal": 0.0326,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -582,7 +658,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2462,
-    "away_signal": 0.2527
+    "away_signal": 0.2527,
+    "abs_signal": 0.0064,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -597,7 +675,9 @@
     "bet_odds": -105.0,
     "no_pick": false,
     "home_signal": 0.2179,
-    "away_signal": 0.2686
+    "away_signal": 0.2686,
+    "abs_signal": 0.0507,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -612,7 +692,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2628,
-    "away_signal": 0.2325
+    "away_signal": 0.2325,
+    "abs_signal": 0.0303,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -627,7 +709,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2373,
-    "away_signal": 0.2468
+    "away_signal": 0.2468,
+    "abs_signal": 0.0095,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -642,7 +726,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2745
+    "away_signal": 0.2745,
+    "abs_signal": 0.021,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -657,7 +743,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2491,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0166,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -672,7 +760,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2354
+    "away_signal": 0.2354,
+    "abs_signal": 0.018,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -687,7 +777,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2413,
-    "away_signal": 0.2464
+    "away_signal": 0.2464,
+    "abs_signal": 0.005,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -702,7 +794,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2556,
-    "away_signal": 0.2473
+    "away_signal": 0.2473,
+    "abs_signal": 0.0084,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -717,7 +811,9 @@
     "bet_odds": -105.0,
     "no_pick": false,
     "home_signal": 0.2375,
-    "away_signal": 0.2188
+    "away_signal": 0.2188,
+    "abs_signal": 0.0187,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -732,7 +828,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2455,
-    "away_signal": 0.2628
+    "away_signal": 0.2628,
+    "abs_signal": 0.0173,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -747,7 +845,9 @@
     "bet_odds": -105.0,
     "no_pick": false,
     "home_signal": 0.2373,
-    "away_signal": 0.2215
+    "away_signal": 0.2215,
+    "abs_signal": 0.0159,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -762,7 +862,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2354,
-    "away_signal": 0.2686
+    "away_signal": 0.2686,
+    "abs_signal": 0.0332,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -777,7 +879,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.256,
-    "away_signal": 0.2665
+    "away_signal": 0.2665,
+    "abs_signal": 0.0105,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -792,7 +896,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2375,
-    "away_signal": 0.2497
+    "away_signal": 0.2497,
+    "abs_signal": 0.0122,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -807,7 +913,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2325,
-    "away_signal": 0.2339
+    "away_signal": 0.2339,
+    "abs_signal": 0.0014,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -822,7 +930,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2597,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0063,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -837,7 +947,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2179,
-    "away_signal": 0.2745
+    "away_signal": 0.2745,
+    "abs_signal": 0.0566,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -852,7 +964,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2188,
-    "away_signal": 0.2473
+    "away_signal": 0.2473,
+    "abs_signal": 0.0285,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -867,7 +981,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2491,
-    "away_signal": 0.2264
+    "away_signal": 0.2264,
+    "abs_signal": 0.0227,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -882,7 +998,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2462
+    "away_signal": 0.2462,
+    "abs_signal": 0.0195,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -897,7 +1015,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2464,
-    "away_signal": 0.2527
+    "away_signal": 0.2527,
+    "abs_signal": 0.0063,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -912,7 +1032,9 @@
     "bet_odds": -105.0,
     "no_pick": false,
     "home_signal": 0.2468,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0189,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -927,7 +1049,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2556
+    "away_signal": 0.2556,
+    "abs_signal": 0.0021,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -942,7 +1066,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2415,
-    "away_signal": 0.2563
+    "away_signal": 0.2563,
+    "abs_signal": 0.0149,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -957,7 +1083,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2413,
-    "away_signal": 0.2485
+    "away_signal": 0.2485,
+    "abs_signal": 0.0071,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -972,7 +1100,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2491
+    "away_signal": 0.2491,
+    "abs_signal": 0.0044,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -987,7 +1117,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2339,
-    "away_signal": 0.2188
+    "away_signal": 0.2188,
+    "abs_signal": 0.0151,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1002,7 +1134,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2462,
-    "away_signal": 0.2325
+    "away_signal": 0.2325,
+    "abs_signal": 0.0137,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1017,7 +1151,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2665,
-    "away_signal": 0.2464
+    "away_signal": 0.2464,
+    "abs_signal": 0.0202,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1032,7 +1168,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2413,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0244,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -1047,7 +1185,9 @@
     "bet_odds": -105.0,
     "no_pick": false,
     "home_signal": 0.2497,
-    "away_signal": 0.2455
+    "away_signal": 0.2455,
+    "abs_signal": 0.0042,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1062,7 +1202,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2628,
-    "away_signal": 0.2215
+    "away_signal": 0.2215,
+    "abs_signal": 0.0413,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -1077,7 +1219,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2686,
-    "away_signal": 0.2597
+    "away_signal": 0.2597,
+    "abs_signal": 0.0089,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1092,7 +1236,9 @@
     "bet_odds": -105.0,
     "no_pick": false,
     "home_signal": 0.2373,
-    "away_signal": 0.2179
+    "away_signal": 0.2179,
+    "abs_signal": 0.0194,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1107,7 +1253,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2556
+    "away_signal": 0.2556,
+    "abs_signal": 0.01,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1122,7 +1270,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2745,
-    "away_signal": 0.2563
+    "away_signal": 0.2563,
+    "abs_signal": 0.0182,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1137,7 +1287,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2264,
-    "away_signal": 0.2375
+    "away_signal": 0.2375,
+    "abs_signal": 0.0111,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1152,7 +1304,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2468,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0067,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1167,7 +1321,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2485,
-    "away_signal": 0.2354
+    "away_signal": 0.2354,
+    "abs_signal": 0.013,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1182,7 +1338,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2473,
-    "away_signal": 0.256
+    "away_signal": 0.256,
+    "abs_signal": 0.0087,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1197,7 +1355,9 @@
     "bet_odds": -115.0,
     "no_pick": false,
     "home_signal": 0.2556,
-    "away_signal": 0.2468
+    "away_signal": 0.2468,
+    "abs_signal": 0.0088,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1212,7 +1372,9 @@
     "bet_odds": -122.0,
     "no_pick": false,
     "home_signal": 0.2339,
-    "away_signal": 0.2597
+    "away_signal": 0.2597,
+    "abs_signal": 0.0258,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1227,7 +1389,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2485,
-    "away_signal": 0.2375
+    "away_signal": 0.2375,
+    "abs_signal": 0.0109,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1242,7 +1406,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2455,
-    "away_signal": 0.2354
+    "away_signal": 0.2354,
+    "abs_signal": 0.0101,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1257,7 +1423,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2215,
-    "away_signal": 0.2686
+    "away_signal": 0.2686,
+    "abs_signal": 0.0471,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -1272,7 +1440,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2665,
-    "away_signal": 0.2497
+    "away_signal": 0.2497,
+    "abs_signal": 0.0168,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1287,7 +1457,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2179,
-    "away_signal": 0.2413
+    "away_signal": 0.2413,
+    "abs_signal": 0.0235,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1302,7 +1474,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2188,
-    "away_signal": 0.2415
+    "away_signal": 0.2415,
+    "abs_signal": 0.0227,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1317,7 +1491,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2491,
-    "away_signal": 0.2628
+    "away_signal": 0.2628,
+    "abs_signal": 0.0137,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1332,7 +1508,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2473,
-    "away_signal": 0.2745
+    "away_signal": 0.2745,
+    "abs_signal": 0.0272,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -1347,7 +1525,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2527,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.013,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1362,7 +1542,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2464,
-    "away_signal": 0.256
+    "away_signal": 0.256,
+    "abs_signal": 0.0097,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1377,7 +1559,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2264,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.027,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1392,7 +1576,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2373
+    "away_signal": 0.2373,
+    "abs_signal": 0.0162,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1407,7 +1593,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2375,
-    "away_signal": 0.2665
+    "away_signal": 0.2665,
+    "abs_signal": 0.029,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1422,7 +1610,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2413,
-    "away_signal": 0.2628
+    "away_signal": 0.2628,
+    "abs_signal": 0.0215,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1431,13 +1621,15 @@
     "game_id": "2026_07_SF_ATL",
     "home_team": "ATL",
     "away_team": "SF",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2485,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0051,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1452,7 +1644,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2354,
-    "away_signal": 0.2325
+    "away_signal": 0.2325,
+    "abs_signal": 0.0029,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1467,7 +1661,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2415,
-    "away_signal": 0.2491
+    "away_signal": 0.2491,
+    "abs_signal": 0.0076,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1476,13 +1672,15 @@
     "game_id": "2026_07_NYG_HOU",
     "home_team": "HOU",
     "away_team": "NYG",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2597,
-    "away_signal": 0.2179
+    "away_signal": 0.2179,
+    "abs_signal": 0.0419,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -1497,7 +1695,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2215
+    "away_signal": 0.2215,
+    "abs_signal": 0.0442,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -1512,7 +1712,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2497,
-    "away_signal": 0.2462
+    "away_signal": 0.2462,
+    "abs_signal": 0.0035,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1527,7 +1729,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2686,
-    "away_signal": 0.2455
+    "away_signal": 0.2455,
+    "abs_signal": 0.0231,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1536,13 +1740,15 @@
     "game_id": "2026_07_DEN_ARI",
     "home_team": "ARI",
     "away_team": "DEN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2745,
-    "away_signal": 0.2556
+    "away_signal": 0.2556,
+    "abs_signal": 0.0188,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1551,13 +1757,15 @@
     "game_id": "2026_07_GB_DET",
     "home_team": "DET",
     "away_team": "GB",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2563,
-    "away_signal": 0.2264
+    "away_signal": 0.2264,
+    "abs_signal": 0.0299,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1566,13 +1774,15 @@
     "game_id": "2026_07_LA_LV",
     "home_team": "LV",
     "away_team": "LA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2464,
-    "away_signal": 0.2473
+    "away_signal": 0.2473,
+    "abs_signal": 0.0009,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1581,13 +1791,15 @@
     "game_id": "2026_07_KC_SEA",
     "home_team": "SEA",
     "away_team": "KC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2468,
-    "away_signal": 0.2527
+    "away_signal": 0.2527,
+    "abs_signal": 0.0058,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1596,13 +1808,15 @@
     "game_id": "2026_07_DAL_PHI",
     "home_team": "PHI",
     "away_team": "DAL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2188,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0347,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1611,13 +1825,15 @@
     "game_id": "2026_08_CAR_GB",
     "home_team": "GB",
     "away_team": "CAR",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2264,
-    "away_signal": 0.2415
+    "away_signal": 0.2415,
+    "abs_signal": 0.0151,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1626,13 +1842,15 @@
     "game_id": "2026_08_BAL_BUF",
     "home_team": "BUF",
     "away_team": "BAL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.256,
-    "away_signal": 0.2354
+    "away_signal": 0.2354,
+    "abs_signal": 0.0206,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1641,13 +1859,15 @@
     "game_id": "2026_08_TEN_CIN",
     "home_team": "CIN",
     "away_team": "TEN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2325,
-    "away_signal": 0.2686
+    "away_signal": 0.2686,
+    "abs_signal": 0.0361,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -1656,13 +1876,15 @@
     "game_id": "2026_08_ARI_DAL",
     "home_team": "DAL",
     "away_team": "ARI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2745
+    "away_signal": 0.2745,
+    "abs_signal": 0.021,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -1671,13 +1893,15 @@
     "game_id": "2026_08_MIN_DET",
     "home_team": "DET",
     "away_team": "MIN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2563,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0094,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1686,13 +1910,15 @@
     "game_id": "2026_08_IND_JAX",
     "home_team": "JAX",
     "away_team": "IND",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2339,
-    "away_signal": 0.2215
+    "away_signal": 0.2215,
+    "abs_signal": 0.0125,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1701,13 +1927,15 @@
     "game_id": "2026_08_LV_NYJ",
     "home_team": "NYJ",
     "away_team": "LV",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2497,
-    "away_signal": 0.2464
+    "away_signal": 0.2464,
+    "abs_signal": 0.0033,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1716,13 +1944,15 @@
     "game_id": "2026_08_CLE_PIT",
     "home_team": "PIT",
     "away_team": "CLE",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2628,
-    "away_signal": 0.2455
+    "away_signal": 0.2455,
+    "abs_signal": 0.0173,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1731,13 +1961,15 @@
     "game_id": "2026_08_ATL_TB",
     "home_team": "TB",
     "away_team": "ATL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2491,
-    "away_signal": 0.2485
+    "away_signal": 0.2485,
+    "abs_signal": 0.0006,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1746,13 +1978,15 @@
     "game_id": "2026_08_LAC_LA",
     "home_team": "LA",
     "away_team": "LAC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2473,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0184,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1761,13 +1995,15 @@
     "game_id": "2026_08_KC_DEN",
     "home_team": "DEN",
     "away_team": "KC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2556,
-    "away_signal": 0.2527
+    "away_signal": 0.2527,
+    "abs_signal": 0.003,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1776,13 +2012,15 @@
     "game_id": "2026_08_NE_MIA",
     "home_team": "MIA",
     "away_team": "NE",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2462,
-    "away_signal": 0.2665
+    "away_signal": 0.2665,
+    "abs_signal": 0.0203,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1791,13 +2029,15 @@
     "game_id": "2026_08_PHI_WAS",
     "home_team": "WAS",
     "away_team": "PHI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2373,
-    "away_signal": 0.2188
+    "away_signal": 0.2188,
+    "abs_signal": 0.0185,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1806,13 +2046,15 @@
     "game_id": "2026_08_CHI_SEA",
     "home_team": "SEA",
     "away_team": "CHI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2468,
-    "away_signal": 0.2375
+    "away_signal": 0.2375,
+    "abs_signal": 0.0093,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1821,13 +2063,15 @@
     "game_id": "2026_09_JAX_BAL",
     "home_team": "BAL",
     "away_team": "JAX",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2354,
-    "away_signal": 0.2339
+    "away_signal": 0.2339,
+    "abs_signal": 0.0015,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1842,7 +2086,9 @@
     "bet_odds": -118.0,
     "no_pick": false,
     "home_signal": 0.2485,
-    "away_signal": 0.2325
+    "away_signal": 0.2325,
+    "abs_signal": 0.016,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1851,13 +2097,15 @@
     "game_id": "2026_09_DEN_CAR",
     "home_team": "CAR",
     "away_team": "DEN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2415,
-    "away_signal": 0.2556
+    "away_signal": 0.2556,
+    "abs_signal": 0.0142,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1866,13 +2114,15 @@
     "game_id": "2026_09_DAL_IND",
     "home_team": "IND",
     "away_team": "DAL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2215,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.032,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -1881,13 +2131,15 @@
     "game_id": "2026_09_NYJ_KC",
     "home_team": "KC",
     "away_team": "NYJ",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2527,
-    "away_signal": 0.2497
+    "away_signal": 0.2497,
+    "abs_signal": 0.003,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1896,13 +2148,15 @@
     "game_id": "2026_09_DET_MIA",
     "home_team": "MIA",
     "away_team": "DET",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2462,
-    "away_signal": 0.2563
+    "away_signal": 0.2563,
+    "abs_signal": 0.0101,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1911,13 +2165,15 @@
     "game_id": "2026_09_CLE_NO",
     "home_team": "NO",
     "away_team": "CLE",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2413,
-    "away_signal": 0.2455
+    "away_signal": 0.2455,
+    "abs_signal": 0.0042,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1926,13 +2182,15 @@
     "game_id": "2026_09_NYG_PHI",
     "home_team": "PHI",
     "away_team": "NYG",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2188,
-    "away_signal": 0.2179
+    "away_signal": 0.2179,
+    "abs_signal": 0.0009,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1941,13 +2199,15 @@
     "game_id": "2026_09_LA_WAS",
     "home_team": "WAS",
     "away_team": "LA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2373,
-    "away_signal": 0.2473
+    "away_signal": 0.2473,
+    "abs_signal": 0.01,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1956,13 +2216,15 @@
     "game_id": "2026_09_HOU_LAC",
     "home_team": "LAC",
     "away_team": "HOU",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2597
+    "away_signal": 0.2597,
+    "abs_signal": 0.006,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1971,13 +2233,15 @@
     "game_id": "2026_09_LV_SF",
     "home_team": "SF",
     "away_team": "LV",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2464
+    "away_signal": 0.2464,
+    "abs_signal": 0.0072,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -1986,13 +2250,15 @@
     "game_id": "2026_09_GB_NE",
     "home_team": "NE",
     "away_team": "GB",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2665,
-    "away_signal": 0.2264
+    "away_signal": 0.2264,
+    "abs_signal": 0.0401,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -2001,13 +2267,15 @@
     "game_id": "2026_09_ARI_SEA",
     "home_team": "SEA",
     "away_team": "ARI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2468,
-    "away_signal": 0.2745
+    "away_signal": 0.2745,
+    "abs_signal": 0.0277,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2016,13 +2284,15 @@
     "game_id": "2026_09_TB_CHI",
     "home_team": "CHI",
     "away_team": "TB",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2375,
-    "away_signal": 0.2491
+    "away_signal": 0.2491,
+    "abs_signal": 0.0116,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2031,13 +2301,15 @@
     "game_id": "2026_09_BUF_MIN",
     "home_team": "MIN",
     "away_team": "BUF",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.256
+    "away_signal": 0.256,
+    "abs_signal": 0.0097,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2046,13 +2318,15 @@
     "game_id": "2026_10_WAS_NYG",
     "home_team": "NYG",
     "away_team": "WAS",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2179,
-    "away_signal": 0.2373
+    "away_signal": 0.2373,
+    "abs_signal": 0.0194,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2067,7 +2341,9 @@
     "bet_odds": -120.0,
     "no_pick": false,
     "home_signal": 0.2563,
-    "away_signal": 0.2665
+    "away_signal": 0.2665,
+    "abs_signal": 0.0102,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2076,13 +2352,15 @@
     "game_id": "2026_10_KC_ATL",
     "home_team": "ATL",
     "away_team": "KC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2485,
-    "away_signal": 0.2527
+    "away_signal": 0.2527,
+    "abs_signal": 0.0042,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2091,13 +2369,15 @@
     "game_id": "2026_10_HOU_CLE",
     "home_team": "CLE",
     "away_team": "HOU",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2455,
-    "away_signal": 0.2597
+    "away_signal": 0.2597,
+    "abs_signal": 0.0142,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2106,13 +2386,15 @@
     "game_id": "2026_10_MIN_GB",
     "home_team": "GB",
     "away_team": "MIN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2264,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0393,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -2121,13 +2403,15 @@
     "game_id": "2026_10_MIA_IND",
     "home_team": "IND",
     "away_team": "MIA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2215,
-    "away_signal": 0.2462
+    "away_signal": 0.2462,
+    "abs_signal": 0.0248,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2136,13 +2420,15 @@
     "game_id": "2026_10_CAR_NO",
     "home_team": "NO",
     "away_team": "CAR",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2413,
-    "away_signal": 0.2415
+    "away_signal": 0.2415,
+    "abs_signal": 0.0001,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2151,13 +2437,15 @@
     "game_id": "2026_10_BUF_NYJ",
     "home_team": "NYJ",
     "away_team": "BUF",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2497,
-    "away_signal": 0.256
+    "away_signal": 0.256,
+    "abs_signal": 0.0063,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2166,13 +2454,15 @@
     "game_id": "2026_10_JAX_TEN",
     "home_team": "TEN",
     "away_team": "JAX",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2686,
-    "away_signal": 0.2339
+    "away_signal": 0.2339,
+    "abs_signal": 0.0347,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -2181,13 +2471,15 @@
     "game_id": "2026_10_LA_ARI",
     "home_team": "ARI",
     "away_team": "LA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2745,
-    "away_signal": 0.2473
+    "away_signal": 0.2473,
+    "abs_signal": 0.0272,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2196,13 +2488,15 @@
     "game_id": "2026_10_SEA_LV",
     "home_team": "LV",
     "away_team": "SEA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2464,
-    "away_signal": 0.2468
+    "away_signal": 0.2468,
+    "abs_signal": 0.0004,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2211,13 +2505,15 @@
     "game_id": "2026_10_SF_DAL",
     "home_team": "DAL",
     "away_team": "SF",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0001,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2226,13 +2522,15 @@
     "game_id": "2026_10_PIT_CIN",
     "home_team": "CIN",
     "away_team": "PIT",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2325,
-    "away_signal": 0.2628
+    "away_signal": 0.2628,
+    "abs_signal": 0.0303,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2241,13 +2539,15 @@
     "game_id": "2026_10_LAC_BAL",
     "home_team": "BAL",
     "away_team": "LAC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2354,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0303,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2256,13 +2556,15 @@
     "game_id": "2026_11_IND_HOU",
     "home_team": "HOU",
     "away_team": "IND",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2597,
-    "away_signal": 0.2215
+    "away_signal": 0.2215,
+    "abs_signal": 0.0383,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -2271,13 +2573,15 @@
     "game_id": "2026_11_MIA_BUF",
     "home_team": "BUF",
     "away_team": "MIA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.256,
-    "away_signal": 0.2462
+    "away_signal": 0.2462,
+    "abs_signal": 0.0098,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2286,13 +2590,15 @@
     "game_id": "2026_11_BAL_CAR",
     "home_team": "CAR",
     "away_team": "BAL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2415,
-    "away_signal": 0.2354
+    "away_signal": 0.2354,
+    "abs_signal": 0.0061,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2301,13 +2607,15 @@
     "game_id": "2026_11_NO_CHI",
     "home_team": "CHI",
     "away_team": "NO",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2375,
-    "away_signal": 0.2413
+    "away_signal": 0.2413,
+    "abs_signal": 0.0038,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2316,13 +2624,15 @@
     "game_id": "2026_11_TEN_DAL",
     "home_team": "DAL",
     "away_team": "TEN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2686
+    "away_signal": 0.2686,
+    "abs_signal": 0.0152,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2331,13 +2641,15 @@
     "game_id": "2026_11_TB_DET",
     "home_team": "DET",
     "away_team": "TB",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2563,
-    "away_signal": 0.2491
+    "away_signal": 0.2491,
+    "abs_signal": 0.0072,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2346,13 +2658,15 @@
     "game_id": "2026_11_ARI_KC",
     "home_team": "KC",
     "away_team": "ARI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2527,
-    "away_signal": 0.2745
+    "away_signal": 0.2745,
+    "abs_signal": 0.0218,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2361,13 +2675,15 @@
     "game_id": "2026_11_JAX_NYG",
     "home_team": "NYG",
     "away_team": "JAX",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2179,
-    "away_signal": 0.2339
+    "away_signal": 0.2339,
+    "abs_signal": 0.016,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2376,13 +2692,15 @@
     "game_id": "2026_11_NYJ_LAC",
     "home_team": "LAC",
     "away_team": "NYJ",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2497
+    "away_signal": 0.2497,
+    "abs_signal": 0.016,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2391,13 +2709,15 @@
     "game_id": "2026_11_LV_DEN",
     "home_team": "DEN",
     "away_team": "LV",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2556,
-    "away_signal": 0.2464
+    "away_signal": 0.2464,
+    "abs_signal": 0.0093,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2406,13 +2726,15 @@
     "game_id": "2026_11_PIT_PHI",
     "home_team": "PHI",
     "away_team": "PIT",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2188,
-    "away_signal": 0.2628
+    "away_signal": 0.2628,
+    "abs_signal": 0.044,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -2427,7 +2749,9 @@
     "bet_odds": -115.0,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0122,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2436,13 +2760,15 @@
     "game_id": "2026_11_CIN_WAS",
     "home_team": "WAS",
     "away_team": "CIN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2373,
-    "away_signal": 0.2325
+    "away_signal": 0.2325,
+    "abs_signal": 0.0048,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2457,7 +2783,9 @@
     "bet_odds": -105.0,
     "no_pick": false,
     "home_signal": 0.2473,
-    "away_signal": 0.2264
+    "away_signal": 0.2264,
+    "abs_signal": 0.0209,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2472,7 +2800,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2563,
-    "away_signal": 0.2375
+    "away_signal": 0.2375,
+    "abs_signal": 0.0188,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2487,7 +2817,9 @@
     "bet_odds": -110.0,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2188
+    "away_signal": 0.2188,
+    "abs_signal": 0.0347,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -2502,7 +2834,9 @@
     "bet_odds": -118.0,
     "no_pick": false,
     "home_signal": 0.256,
-    "away_signal": 0.2527
+    "away_signal": 0.2527,
+    "abs_signal": 0.0034,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2517,7 +2851,9 @@
     "bet_odds": -104.0,
     "no_pick": false,
     "home_signal": 0.2628,
-    "away_signal": 0.2556
+    "away_signal": 0.2556,
+    "abs_signal": 0.0072,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2526,13 +2862,15 @@
     "game_id": "2026_12_NO_CIN",
     "home_team": "CIN",
     "away_team": "NO",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2325,
-    "away_signal": 0.2413
+    "away_signal": 0.2413,
+    "abs_signal": 0.0089,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2541,13 +2879,15 @@
     "game_id": "2026_12_LV_CLE",
     "home_team": "CLE",
     "away_team": "LV",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2455,
-    "away_signal": 0.2464
+    "away_signal": 0.2464,
+    "abs_signal": 0.0008,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2556,13 +2896,15 @@
     "game_id": "2026_12_BAL_HOU",
     "home_team": "HOU",
     "away_team": "BAL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2597,
-    "away_signal": 0.2354
+    "away_signal": 0.2354,
+    "abs_signal": 0.0243,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2571,13 +2913,15 @@
     "game_id": "2026_12_NYG_IND",
     "home_team": "IND",
     "away_team": "NYG",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2215,
-    "away_signal": 0.2179
+    "away_signal": 0.2179,
+    "abs_signal": 0.0036,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2586,13 +2930,15 @@
     "game_id": "2026_12_NYJ_MIA",
     "home_team": "MIA",
     "away_team": "NYJ",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2462,
-    "away_signal": 0.2497
+    "away_signal": 0.2497,
+    "abs_signal": 0.0035,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2601,13 +2947,15 @@
     "game_id": "2026_12_ATL_MIN",
     "home_team": "MIN",
     "away_team": "ATL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2485
+    "away_signal": 0.2485,
+    "abs_signal": 0.0172,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2616,13 +2964,15 @@
     "game_id": "2026_12_TEN_JAX",
     "home_team": "JAX",
     "away_team": "TEN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2339,
-    "away_signal": 0.2686
+    "away_signal": 0.2686,
+    "abs_signal": 0.0347,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2631,13 +2981,15 @@
     "game_id": "2026_12_WAS_ARI",
     "home_team": "ARI",
     "away_team": "WAS",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2745,
-    "away_signal": 0.2373
+    "away_signal": 0.2373,
+    "abs_signal": 0.0372,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -2646,13 +2998,15 @@
     "game_id": "2026_12_SEA_SF",
     "home_team": "SF",
     "away_team": "SEA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2468
+    "away_signal": 0.2468,
+    "abs_signal": 0.0067,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2661,13 +3015,15 @@
     "game_id": "2026_12_NE_LAC",
     "home_team": "LAC",
     "away_team": "NE",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2665
+    "away_signal": 0.2665,
+    "abs_signal": 0.0008,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2676,13 +3032,15 @@
     "game_id": "2026_12_CAR_TB",
     "home_team": "TB",
     "away_team": "CAR",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2491,
-    "away_signal": 0.2415
+    "away_signal": 0.2415,
+    "abs_signal": 0.0076,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2691,13 +3049,15 @@
     "game_id": "2026_13_KC_LA",
     "home_team": "LA",
     "away_team": "KC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2473,
-    "away_signal": 0.2527
+    "away_signal": 0.2527,
+    "abs_signal": 0.0054,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2706,13 +3066,15 @@
     "game_id": "2026_13_DET_ATL",
     "home_team": "ATL",
     "away_team": "DET",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2485,
-    "away_signal": 0.2563
+    "away_signal": 0.2563,
+    "abs_signal": 0.0079,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2721,13 +3083,15 @@
     "game_id": "2026_13_JAX_CHI",
     "home_team": "CHI",
     "away_team": "JAX",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2375,
-    "away_signal": 0.2339
+    "away_signal": 0.2339,
+    "abs_signal": 0.0036,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2736,13 +3100,15 @@
     "game_id": "2026_13_CIN_CLE",
     "home_team": "CLE",
     "away_team": "CIN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2455,
-    "away_signal": 0.2325
+    "away_signal": 0.2325,
+    "abs_signal": 0.013,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2751,13 +3117,15 @@
     "game_id": "2026_13_GB_NO",
     "home_team": "NO",
     "away_team": "GB",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2413,
-    "away_signal": 0.2264
+    "away_signal": 0.2264,
+    "abs_signal": 0.0149,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2766,13 +3134,15 @@
     "game_id": "2026_13_SF_NYG",
     "home_team": "NYG",
     "away_team": "SF",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2179,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0357,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -2781,13 +3151,15 @@
     "game_id": "2026_13_LAC_TB",
     "home_team": "TB",
     "away_team": "LAC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2491,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0166,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2796,13 +3168,15 @@
     "game_id": "2026_13_WAS_TEN",
     "home_team": "TEN",
     "away_team": "WAS",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2686,
-    "away_signal": 0.2373
+    "away_signal": 0.2373,
+    "abs_signal": 0.0313,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2811,13 +3185,15 @@
     "game_id": "2026_13_PHI_ARI",
     "home_team": "ARI",
     "away_team": "PHI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2745,
-    "away_signal": 0.2188
+    "away_signal": 0.2188,
+    "abs_signal": 0.0557,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -2826,13 +3202,15 @@
     "game_id": "2026_13_MIA_DEN",
     "home_team": "DEN",
     "away_team": "MIA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2556,
-    "away_signal": 0.2462
+    "away_signal": 0.2462,
+    "abs_signal": 0.0094,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2841,13 +3219,15 @@
     "game_id": "2026_13_CAR_MIN",
     "home_team": "MIN",
     "away_team": "CAR",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2415
+    "away_signal": 0.2415,
+    "abs_signal": 0.0242,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2856,13 +3236,15 @@
     "game_id": "2026_13_BUF_NE",
     "home_team": "NE",
     "away_team": "BUF",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2665,
-    "away_signal": 0.256
+    "away_signal": 0.256,
+    "abs_signal": 0.0105,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2871,13 +3253,15 @@
     "game_id": "2026_13_HOU_PIT",
     "home_team": "PIT",
     "away_team": "HOU",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2628,
-    "away_signal": 0.2597
+    "away_signal": 0.2597,
+    "abs_signal": 0.0031,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2886,13 +3270,15 @@
     "game_id": "2026_13_DAL_SEA",
     "home_team": "SEA",
     "away_team": "DAL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2468,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0066,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2901,13 +3287,15 @@
     "game_id": "2026_14_MIN_NE",
     "home_team": "NE",
     "away_team": "MIN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2665,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0008,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2916,13 +3304,15 @@
     "game_id": "2026_14_TB_BAL",
     "home_team": "BAL",
     "away_team": "TB",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2354,
-    "away_signal": 0.2491
+    "away_signal": 0.2491,
+    "abs_signal": 0.0137,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2931,13 +3321,15 @@
     "game_id": "2026_14_NO_CAR",
     "home_team": "CAR",
     "away_team": "NO",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2415,
-    "away_signal": 0.2413
+    "away_signal": 0.2413,
+    "abs_signal": 0.0001,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2946,13 +3338,15 @@
     "game_id": "2026_14_ATL_CLE",
     "home_team": "CLE",
     "away_team": "ATL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2455,
-    "away_signal": 0.2485
+    "away_signal": 0.2485,
+    "abs_signal": 0.0029,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2961,13 +3355,15 @@
     "game_id": "2026_14_TEN_DET",
     "home_team": "DET",
     "away_team": "TEN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2563,
-    "away_signal": 0.2686
+    "away_signal": 0.2686,
+    "abs_signal": 0.0123,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2976,13 +3372,15 @@
     "game_id": "2026_14_CHI_MIA",
     "home_team": "MIA",
     "away_team": "CHI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2462,
-    "away_signal": 0.2375
+    "away_signal": 0.2375,
+    "abs_signal": 0.0087,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -2991,13 +3389,15 @@
     "game_id": "2026_14_DEN_NYJ",
     "home_team": "NYJ",
     "away_team": "DEN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2497,
-    "away_signal": 0.2556
+    "away_signal": 0.2556,
+    "abs_signal": 0.0059,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3006,13 +3406,15 @@
     "game_id": "2026_14_IND_PHI",
     "home_team": "PHI",
     "away_team": "IND",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2188,
-    "away_signal": 0.2215
+    "away_signal": 0.2215,
+    "abs_signal": 0.0027,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3021,13 +3423,15 @@
     "game_id": "2026_14_HOU_WAS",
     "home_team": "WAS",
     "away_team": "HOU",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2373,
-    "away_signal": 0.2597
+    "away_signal": 0.2597,
+    "abs_signal": 0.0224,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3036,13 +3440,15 @@
     "game_id": "2026_14_LAC_LV",
     "home_team": "LV",
     "away_team": "LAC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2464,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0193,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3051,13 +3457,15 @@
     "game_id": "2026_14_KC_CIN",
     "home_team": "CIN",
     "away_team": "KC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2325,
-    "away_signal": 0.2527
+    "away_signal": 0.2527,
+    "abs_signal": 0.0202,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3066,13 +3474,15 @@
     "game_id": "2026_14_NYG_SEA",
     "home_team": "SEA",
     "away_team": "NYG",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2468,
-    "away_signal": 0.2179
+    "away_signal": 0.2179,
+    "abs_signal": 0.0289,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -3081,13 +3491,15 @@
     "game_id": "2026_14_LA_SF",
     "home_team": "SF",
     "away_team": "LA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2473
+    "away_signal": 0.2473,
+    "abs_signal": 0.0062,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3096,13 +3508,15 @@
     "game_id": "2026_14_BUF_GB",
     "home_team": "GB",
     "away_team": "BUF",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2264,
-    "away_signal": 0.256
+    "away_signal": 0.256,
+    "abs_signal": 0.0296,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -3111,13 +3525,15 @@
     "game_id": "2026_14_PIT_JAX",
     "home_team": "JAX",
     "away_team": "PIT",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2339,
-    "away_signal": 0.2628
+    "away_signal": 0.2628,
+    "abs_signal": 0.0289,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3126,13 +3542,15 @@
     "game_id": "2026_15_SF_LAC",
     "home_team": "LAC",
     "away_team": "SF",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0122,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3141,13 +3559,15 @@
     "game_id": "2026_15_SEA_PHI",
     "home_team": "PHI",
     "away_team": "SEA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2188,
-    "away_signal": 0.2468
+    "away_signal": 0.2468,
+    "abs_signal": 0.028,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -3156,13 +3576,15 @@
     "game_id": "2026_15_CHI_BUF",
     "home_team": "BUF",
     "away_team": "CHI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.256,
-    "away_signal": 0.2375
+    "away_signal": 0.2375,
+    "abs_signal": 0.0185,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3171,13 +3593,15 @@
     "game_id": "2026_15_CIN_CAR",
     "home_team": "CAR",
     "away_team": "CIN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2415,
-    "away_signal": 0.2325
+    "away_signal": 0.2325,
+    "abs_signal": 0.009,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3186,13 +3610,15 @@
     "game_id": "2026_15_MIA_GB",
     "home_team": "GB",
     "away_team": "MIA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2264,
-    "away_signal": 0.2462
+    "away_signal": 0.2462,
+    "abs_signal": 0.0198,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3201,13 +3627,15 @@
     "game_id": "2026_15_JAX_HOU",
     "home_team": "HOU",
     "away_team": "JAX",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2597,
-    "away_signal": 0.2339
+    "away_signal": 0.2339,
+    "abs_signal": 0.0258,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3216,13 +3644,15 @@
     "game_id": "2026_15_CLE_NYG",
     "home_team": "NYG",
     "away_team": "CLE",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2179,
-    "away_signal": 0.2455
+    "away_signal": 0.2455,
+    "abs_signal": 0.0277,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3231,13 +3661,15 @@
     "game_id": "2026_15_BAL_PIT",
     "home_team": "PIT",
     "away_team": "BAL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2628,
-    "away_signal": 0.2354
+    "away_signal": 0.2354,
+    "abs_signal": 0.0274,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3246,13 +3678,15 @@
     "game_id": "2026_15_NO_TB",
     "home_team": "TB",
     "away_team": "NO",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2491,
-    "away_signal": 0.2413
+    "away_signal": 0.2413,
+    "abs_signal": 0.0078,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3261,13 +3695,15 @@
     "game_id": "2026_15_IND_TEN",
     "home_team": "TEN",
     "away_team": "IND",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2686,
-    "away_signal": 0.2215
+    "away_signal": 0.2215,
+    "abs_signal": 0.0471,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -3276,13 +3712,15 @@
     "game_id": "2026_15_ATL_WAS",
     "home_team": "WAS",
     "away_team": "ATL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2373,
-    "away_signal": 0.2485
+    "away_signal": 0.2485,
+    "abs_signal": 0.0112,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3291,13 +3729,15 @@
     "game_id": "2026_15_NYJ_ARI",
     "home_team": "ARI",
     "away_team": "NYJ",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2745,
-    "away_signal": 0.2497
+    "away_signal": 0.2497,
+    "abs_signal": 0.0248,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3306,13 +3746,15 @@
     "game_id": "2026_15_DAL_LA",
     "home_team": "LA",
     "away_team": "DAL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2473,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0062,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3321,13 +3763,15 @@
     "game_id": "2026_15_DEN_LV",
     "home_team": "LV",
     "away_team": "DEN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2464,
-    "away_signal": 0.2556
+    "away_signal": 0.2556,
+    "abs_signal": 0.0093,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3336,13 +3780,15 @@
     "game_id": "2026_15_DET_MIN",
     "home_team": "MIN",
     "away_team": "DET",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2563
+    "away_signal": 0.2563,
+    "abs_signal": 0.0094,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3351,13 +3797,15 @@
     "game_id": "2026_15_NE_KC",
     "home_team": "KC",
     "away_team": "NE",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2527,
-    "away_signal": 0.2665
+    "away_signal": 0.2665,
+    "abs_signal": 0.0139,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3372,7 +3820,9 @@
     "bet_odds": -115.0,
     "no_pick": false,
     "home_signal": 0.2188,
-    "away_signal": 0.2597
+    "away_signal": 0.2597,
+    "abs_signal": 0.041,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -3387,7 +3837,9 @@
     "bet_odds": -105.0,
     "no_pick": false,
     "home_signal": 0.2375,
-    "away_signal": 0.2264
+    "away_signal": 0.2264,
+    "abs_signal": 0.0111,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3402,7 +3854,9 @@
     "bet_odds": -115.0,
     "no_pick": false,
     "home_signal": 0.2556,
-    "away_signal": 0.256
+    "away_signal": 0.256,
+    "abs_signal": 0.0004,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3417,7 +3871,9 @@
     "bet_odds": -105.0,
     "no_pick": false,
     "home_signal": 0.2468,
-    "away_signal": 0.2473
+    "away_signal": 0.2473,
+    "abs_signal": 0.0005,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3426,13 +3882,15 @@
     "game_id": "2026_16_TB_ATL",
     "home_team": "ATL",
     "away_team": "TB",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2485,
-    "away_signal": 0.2491
+    "away_signal": 0.2491,
+    "abs_signal": 0.0006,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3441,13 +3899,15 @@
     "game_id": "2026_16_CLE_BAL",
     "home_team": "BAL",
     "away_team": "CLE",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2354,
-    "away_signal": 0.2455
+    "away_signal": 0.2455,
+    "abs_signal": 0.0101,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3456,13 +3916,15 @@
     "game_id": "2026_16_CIN_IND",
     "home_team": "IND",
     "away_team": "CIN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2215,
-    "away_signal": 0.2325
+    "away_signal": 0.2325,
+    "abs_signal": 0.011,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3471,13 +3933,15 @@
     "game_id": "2026_16_LAC_MIA",
     "home_team": "MIA",
     "away_team": "LAC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2462,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.0195,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3486,13 +3950,15 @@
     "game_id": "2026_16_WAS_MIN",
     "home_team": "MIN",
     "away_team": "WAS",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2373
+    "away_signal": 0.2373,
+    "abs_signal": 0.0284,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3501,13 +3967,15 @@
     "game_id": "2026_16_ARI_NO",
     "home_team": "NO",
     "away_team": "ARI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2413,
-    "away_signal": 0.2745
+    "away_signal": 0.2745,
+    "abs_signal": 0.0332,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3516,13 +3984,15 @@
     "game_id": "2026_16_NE_NYJ",
     "home_team": "NYJ",
     "away_team": "NE",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2497,
-    "away_signal": 0.2665
+    "away_signal": 0.2665,
+    "abs_signal": 0.0168,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3531,13 +4001,15 @@
     "game_id": "2026_16_CAR_PIT",
     "home_team": "PIT",
     "away_team": "CAR",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2628,
-    "away_signal": 0.2415
+    "away_signal": 0.2415,
+    "abs_signal": 0.0213,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3546,13 +4018,15 @@
     "game_id": "2026_16_TEN_LV",
     "home_team": "LV",
     "away_team": "TEN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2464,
-    "away_signal": 0.2686
+    "away_signal": 0.2686,
+    "abs_signal": 0.0222,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3561,13 +4035,15 @@
     "game_id": "2026_16_SF_KC",
     "home_team": "KC",
     "away_team": "SF",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2527,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0009,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3576,13 +4052,15 @@
     "game_id": "2026_16_JAX_DAL",
     "home_team": "DAL",
     "away_team": "JAX",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2339
+    "away_signal": 0.2339,
+    "abs_signal": 0.0195,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3591,13 +4069,15 @@
     "game_id": "2026_16_NYG_DET",
     "home_team": "DET",
     "away_team": "NYG",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2563,
-    "away_signal": 0.2179
+    "away_signal": 0.2179,
+    "abs_signal": 0.0385,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -3606,13 +4086,15 @@
     "game_id": "2026_17_BAL_CIN",
     "home_team": "CIN",
     "away_team": "BAL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2325,
-    "away_signal": 0.2354
+    "away_signal": 0.2354,
+    "abs_signal": 0.0029,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3621,13 +4103,15 @@
     "game_id": "2026_17_NO_ATL",
     "home_team": "ATL",
     "away_team": "NO",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2485,
-    "away_signal": 0.2413
+    "away_signal": 0.2413,
+    "abs_signal": 0.0071,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3636,13 +4120,15 @@
     "game_id": "2026_17_SEA_CAR",
     "home_team": "CAR",
     "away_team": "SEA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2415,
-    "away_signal": 0.2468
+    "away_signal": 0.2468,
+    "abs_signal": 0.0053,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3651,13 +4137,15 @@
     "game_id": "2026_17_IND_CLE",
     "home_team": "CLE",
     "away_team": "IND",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2455,
-    "away_signal": 0.2215
+    "away_signal": 0.2215,
+    "abs_signal": 0.0241,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3666,13 +4154,15 @@
     "game_id": "2026_17_NYG_DAL",
     "home_team": "DAL",
     "away_team": "NYG",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2179
+    "away_signal": 0.2179,
+    "abs_signal": 0.0356,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -3681,13 +4171,15 @@
     "game_id": "2026_17_WAS_JAX",
     "home_team": "JAX",
     "away_team": "WAS",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2339,
-    "away_signal": 0.2373
+    "away_signal": 0.2373,
+    "abs_signal": 0.0034,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3696,13 +4188,15 @@
     "game_id": "2026_17_KC_LAC",
     "home_team": "LAC",
     "away_team": "KC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2527
+    "away_signal": 0.2527,
+    "abs_signal": 0.013,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3711,13 +4205,15 @@
     "game_id": "2026_17_BUF_MIA",
     "home_team": "MIA",
     "away_team": "BUF",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2462,
-    "away_signal": 0.256
+    "away_signal": 0.256,
+    "abs_signal": 0.0098,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3726,13 +4222,15 @@
     "game_id": "2026_17_DEN_NE",
     "home_team": "NE",
     "away_team": "DEN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2665,
-    "away_signal": 0.2556
+    "away_signal": 0.2556,
+    "abs_signal": 0.0109,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3741,13 +4239,15 @@
     "game_id": "2026_17_MIN_NYJ",
     "home_team": "NYJ",
     "away_team": "MIN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2497,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.016,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3756,13 +4256,15 @@
     "game_id": "2026_17_LA_TB",
     "home_team": "TB",
     "away_team": "LA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2491,
-    "away_signal": 0.2473
+    "away_signal": 0.2473,
+    "abs_signal": 0.0018,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3771,13 +4273,15 @@
     "game_id": "2026_17_PIT_TEN",
     "home_team": "TEN",
     "away_team": "PIT",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2686,
-    "away_signal": 0.2628
+    "away_signal": 0.2628,
+    "abs_signal": 0.0058,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3786,13 +4290,15 @@
     "game_id": "2026_17_LV_ARI",
     "home_team": "ARI",
     "away_team": "LV",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2745,
-    "away_signal": 0.2464
+    "away_signal": 0.2464,
+    "abs_signal": 0.0281,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3801,13 +4307,15 @@
     "game_id": "2026_17_DET_CHI",
     "home_team": "CHI",
     "away_team": "DET",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2375,
-    "away_signal": 0.2563
+    "away_signal": 0.2563,
+    "abs_signal": 0.0188,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3816,13 +4324,15 @@
     "game_id": "2026_17_PHI_SF",
     "home_team": "SF",
     "away_team": "PHI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2535,
-    "away_signal": 0.2188
+    "away_signal": 0.2188,
+    "abs_signal": 0.0347,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -3831,13 +4341,15 @@
     "game_id": "2026_17_HOU_GB",
     "home_team": "GB",
     "away_team": "HOU",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2264,
-    "away_signal": 0.2597
+    "away_signal": 0.2597,
+    "abs_signal": 0.0333,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3846,13 +4358,15 @@
     "game_id": "2026_18_SF_ARI",
     "home_team": "ARI",
     "away_team": "SF",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2745,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.021,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3861,13 +4375,15 @@
     "game_id": "2026_18_PIT_BAL",
     "home_team": "BAL",
     "away_team": "PIT",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2354,
-    "away_signal": 0.2628
+    "away_signal": 0.2628,
+    "abs_signal": 0.0274,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3876,13 +4392,15 @@
     "game_id": "2026_18_NYJ_BUF",
     "home_team": "BUF",
     "away_team": "NYJ",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.256,
-    "away_signal": 0.2497
+    "away_signal": 0.2497,
+    "abs_signal": 0.0063,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3891,13 +4409,15 @@
     "game_id": "2026_18_ATL_CAR",
     "home_team": "CAR",
     "away_team": "ATL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2415,
-    "away_signal": 0.2485
+    "away_signal": 0.2485,
+    "abs_signal": 0.007,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3906,13 +4426,15 @@
     "game_id": "2026_18_CLE_CIN",
     "home_team": "CIN",
     "away_team": "CLE",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2325,
-    "away_signal": 0.2455
+    "away_signal": 0.2455,
+    "abs_signal": 0.013,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3921,13 +4443,15 @@
     "game_id": "2026_18_LAC_DEN",
     "home_team": "DEN",
     "away_team": "LAC",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2556,
-    "away_signal": 0.2657
+    "away_signal": 0.2657,
+    "abs_signal": 0.01,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3936,13 +4460,15 @@
     "game_id": "2026_18_DET_GB",
     "home_team": "GB",
     "away_team": "DET",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2264,
-    "away_signal": 0.2563
+    "away_signal": 0.2563,
+    "abs_signal": 0.0299,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -3951,13 +4477,15 @@
     "game_id": "2026_18_TEN_HOU",
     "home_team": "HOU",
     "away_team": "TEN",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2597,
-    "away_signal": 0.2686
+    "away_signal": 0.2686,
+    "abs_signal": 0.0089,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3966,13 +4494,15 @@
     "game_id": "2026_18_JAX_IND",
     "home_team": "IND",
     "away_team": "JAX",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2215,
-    "away_signal": 0.2339
+    "away_signal": 0.2339,
+    "abs_signal": 0.0125,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3981,13 +4511,15 @@
     "game_id": "2026_18_LV_KC",
     "home_team": "KC",
     "away_team": "LV",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2527,
-    "away_signal": 0.2464
+    "away_signal": 0.2464,
+    "abs_signal": 0.0063,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -3996,13 +4528,15 @@
     "game_id": "2026_18_SEA_LA",
     "home_team": "LA",
     "away_team": "SEA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2473,
-    "away_signal": 0.2468
+    "away_signal": 0.2468,
+    "abs_signal": 0.0005,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -4011,13 +4545,15 @@
     "game_id": "2026_18_CHI_MIN",
     "home_team": "MIN",
     "away_team": "CHI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2657,
-    "away_signal": 0.2375
+    "away_signal": 0.2375,
+    "abs_signal": 0.0282,
+    "is_top2": true
   },
   {
     "season": 2026,
@@ -4026,13 +4562,15 @@
     "game_id": "2026_18_MIA_NE",
     "home_team": "NE",
     "away_team": "MIA",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "home",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2665,
-    "away_signal": 0.2462
+    "away_signal": 0.2462,
+    "abs_signal": 0.0203,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -4041,13 +4579,15 @@
     "game_id": "2026_18_TB_NO",
     "home_team": "NO",
     "away_team": "TB",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2413,
-    "away_signal": 0.2491
+    "away_signal": 0.2491,
+    "abs_signal": 0.0078,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -4056,13 +4596,15 @@
     "game_id": "2026_18_PHI_NYG",
     "home_team": "NYG",
     "away_team": "PHI",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2179,
-    "away_signal": 0.2188
+    "away_signal": 0.2188,
+    "abs_signal": 0.0009,
+    "is_top2": false
   },
   {
     "season": 2026,
@@ -4071,12 +4613,14 @@
     "game_id": "2026_18_DAL_WAS",
     "home_team": "WAS",
     "away_team": "DAL",
-    "spread_line": null,
+    "spread_line": NaN,
     "has_odds": false,
     "bet_side": "away",
-    "bet_odds": null,
+    "bet_odds": NaN,
     "no_pick": false,
     "home_signal": 0.2373,
-    "away_signal": 0.2535
+    "away_signal": 0.2535,
+    "abs_signal": 0.0161,
+    "is_top2": false
   }
 ]

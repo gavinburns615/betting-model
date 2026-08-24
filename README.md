@@ -85,6 +85,7 @@ venv/bin/python3 src/build_dataset.py                 # joins games + signal int
 venv/bin/python3 src/backtest_ats.py                  # walk-forward backtest: original (buggy) + corrected strategy + 2 baselines
 venv/bin/python3 src/report.py                        # full metrics, sanity check, cumulative P/L chart
 venv/bin/python3 src/predict_upcoming.py              # forward-looking picks for the current season
+venv/bin/python3 src/top2_backtest.py                 # highest-conviction subset: top 2 picks/week + holdout check
 ```
 
 `report/presnap_edge_backtest.html` is a static snapshot of the interactive

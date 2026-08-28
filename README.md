@@ -9,16 +9,22 @@ leak-detection sanity check that has to pass before any result is trusted.
 out-of-sample win rate, p = 0.14) — not something to bet real money on.**
 Getting to that number required catching and fixing a real bug in the first
 version of the backtest, which is arguably the more interesting part of this
-repo: see [Limitations](#limitations) below.
+repo: see [Limitations](#limitations) below. Restricting to each week's two
+highest-conviction picks looks more promising (62.9%, every backtested
+season positive) and held up on a genuine holdout test — but on a small
+sample and a single train/test split, so it's a lead, not a second proven
+result. Same section has the numbers.
 
 ## Viewing the report
 
 **[Live version](https://claude.ai/code/artifact/e91209a2-8178-494c-be97-81f81b5c44ef)**
 — or open [report/presnap_edge_backtest.html](report/presnap_edge_backtest.html)
 directly in a browser, no server needed. Either way it shows every pick week
-by week — past results checked against final scores, and next week's picks
-before kickoff — plus a break-even/"is this specific price worth it" check
-on each one.
+by week (with a week filter so you don't have to scroll a whole season) —
+past results checked against final scores, and next week's picks before
+kickoff — a break-even/"is this specific price worth it" check on each one,
+each week's top-2-conviction picks highlighted, and a cumulative unit curve
+for betting flat stakes on just those.
 
 ## How it's built
 
@@ -41,6 +47,12 @@ on each one.
    the identical harness. Full metrics: ROI (flat stake and Kelly-sized),
    Sharpe ratio, max drawdown, win rate by season/month, and a leak-detection
    sanity check that fails loudly if either baseline shows a spurious edge.
+5. **Highest-conviction subset** — restricting each week to its two largest
+   signal gaps (ranking by a presnap-safe magnitude, not by outcome) turns
+   52.0% into 62.9%, with all six backtested seasons finishing positive.
+   Validated on a holdout split (cutoff chosen on 2020–2022 only, tested on
+   untouched 2023–2025: still 62.7%, p = 0.013) rather than just reported
+   from the full period — see `src/top2_backtest.py`.
 
 ## Limitations
 
@@ -68,6 +80,17 @@ that's smaller and noisier than that estimate suggests.
 Bottom line: this is a rigorous no (or at best inconclusive) result, reported
 as one. If a future iteration is going to beat this, it needs a genuinely
 different information edge — not a re-tuned threshold on the same signal.
+
+**On the top-2 subset specifically:** N=2 was picked by comparing several
+candidates (1, 2, 3, 5, 10 picks/week) against the *full* 2020–2025 period
+and taking the best-looking one — exactly the kind of after-the-fact
+selection this project otherwise avoids. The one thing keeping it more than
+pure curve-fitting is a holdout check: choosing N using only 2020–2022, then
+testing that choice on the untouched 2023–2025 games, still showed a real
+result (62.7%, p = 0.013). That's a single train/test split, though, not the
+same multi-fold expanding-window walk-forward the base strategy was
+validated with. Read it as a promising, worth-tracking lead — not a second
+strategy proven to the same standard as the first.
 
 ## Setup
 

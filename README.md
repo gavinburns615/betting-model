@@ -26,6 +26,17 @@ kickoff — a break-even/"is this specific price worth it" check on each one,
 each week's top-2-conviction picks highlighted, and a cumulative unit curve
 for betting flat stakes on just those.
 
+**Data freshness:** the report is a static snapshot, not a live page — it
+shows the date it was last regenerated. Odds move throughout the week (a
+9-day-old pull had already moved on half of week 1's lines when checked), so
+treat any upcoming-week price as indicative, not current, and re-run the
+pipeline before actually placing anything. There's no in-page refresh button
+by design: the artifact sandbox can't fetch live external data from the
+browser, so a button that looked like it refreshed but didn't would just be
+misleading. The signal itself also doesn't use injury reports or 2026
+roster/trade moves at all — it's built entirely from each team's 2025
+play-by-play, carried forward.
+
 ## How it's built
 
 1. **Data** — [nflverse](https://github.com/nflverse) public schedules via

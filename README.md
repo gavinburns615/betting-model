@@ -37,6 +37,16 @@ misleading. The signal itself also doesn't use injury reports or 2026
 roster/trade moves at all — it's built entirely from each team's 2025
 play-by-play, carried forward.
 
+**Important: a pick's side never changes when the line moves.** The side is
+decided once, purely from the signal gap between the two teams — the spread
+is only used afterward to price it. `predict_upcoming.py` records the
+spread the first time it ever sees odds for a game (`first_seen_spreads.json`,
+never overwritten) and flags any game whose line has since moved ≥1 point —
+almost always a sign of real news (an injury, weather, a lineup change) the
+signal has no way to see. The report marks these "Line moved" rather than
+silently keeping a pick that may no longer make sense; it's a caution flag
+for manual review, not an automatic re-pick.
+
 ## How it's built
 
 1. **Data** — [nflverse](https://github.com/nflverse) public schedules via

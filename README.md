@@ -26,16 +26,22 @@ kickoff — a break-even/"is this specific price worth it" check on each one,
 each week's top-2-conviction picks highlighted, and a cumulative unit curve
 for betting flat stakes on just those.
 
-**Data freshness:** the report is a static snapshot, not a live page — it
-shows the date it was last regenerated. Odds move throughout the week (a
-9-day-old pull had already moved on half of week 1's lines when checked), so
-treat any upcoming-week price as indicative, not current, and re-run the
-pipeline before actually placing anything. There's no in-page refresh button
-by design: the artifact sandbox can't fetch live external data from the
-browser, so a button that looked like it refreshed but didn't would just be
-misleading. The signal itself also doesn't use injury reports or 2026
-roster/trade moves at all — it's built entirely from each team's 2025
-play-by-play, carried forward.
+**Refreshing:** the report is a saved snapshot and shows the date it was
+built. Odds move throughout the week (a 9-day-old pull had already moved on
+half of week 1's lines), so refresh before relying on any price:
+
+```bash
+venv/bin/python3 src/refresh.py     # re-pulls schedules/scores/lines, re-grades played games, flags line moves, rebuilds the report
+```
+
+There's no working "refresh" button inside the page itself — the page runs in
+a sandbox that can't fetch live data from the browser, so the header's
+*Refresh data* button just explains this and shows the command. A refresh
+updates prices, the worth-it check, line-move flags, and graded results
+(finished 2026 games are scored against their pick, with a running live
+record — a real forward test, though tiny so far). It does **not** fold newly
+played 2026 games into the signal itself, which is still built entirely from
+each team's 2025 play-by-play, with no injury or roster/trade data.
 
 **Important: a pick's side never changes when the line moves.** The side is
 decided once, purely from the signal gap between the two teams — the spread
@@ -45,7 +51,8 @@ never overwritten) and flags any game whose line has since moved ≥1 point —
 almost always a sign of real news (an injury, weather, a lineup change) the
 signal has no way to see. The report marks these "Line moved" rather than
 silently keeping a pick that may no longer make sense; it's a caution flag
-for manual review, not an automatic re-pick.
+for manual review, not an automatic re-pick. (Checked on a real refresh: 22
+spreads moved by a point or more since first tracked; 0 pick sides changed.)
 
 ## How it's built
 
@@ -132,10 +139,9 @@ venv/bin/python3 src/predict_upcoming.py              # forward-looking picks fo
 venv/bin/python3 src/top2_backtest.py                 # highest-conviction subset: top 2 picks/week + holdout check
 ```
 
-`report/presnap_edge_backtest.html` is a static snapshot of the interactive
-dashboard built from these outputs; regenerate it by re-running the pipeline
-and rebuilding the report (see `src/report.py` for the metrics it's built
-from — the dashboard itself is assembled separately from that JSON).
+`src/refresh.py` runs the fetch, dataset, and prediction steps above and then
+rebuilds `report/presnap_edge_backtest.html` from `report/template.html` (the
+page with data placeholders), so the whole report is reproducible from code.
 
 ## Repo layout
 
@@ -143,5 +149,5 @@ from — the dashboard itself is assembled separately from that JSON).
 src/          data pipeline, backtest harness, metrics, forward predictions
 data/         cached pulls and processed datasets (raw pulls gitignored -- see .gitignore)
 output/       backtest results: bet-level parquet, fold summaries, chart
-report/       static snapshot of the interactive dashboard
+report/       template.html (page source) and the built dashboard snapshot
 ```

@@ -108,12 +108,28 @@ def main():
         if has_odds:
             update_first_seen(first_seen, g["game_id"], current_spread, today)
 
+        # Grade finished games the same way the historical backtest does: the picked
+        # side covers if it beats the (closing) spread; an exact tie is a push.
+        completed = pd.notna(g["home_score"]) and pd.notna(g["away_score"])
+        home_score = away_score = bet_won = None
+        push = False
+        if completed:
+            home_score, away_score = float(g["home_score"]), float(g["away_score"])
+            if has_odds:
+                margin = home_score - away_score
+                if margin == current_spread:
+                    push = True
+                else:
+                    home_covers = margin > current_spread
+                    bet_won = bool(home_covers if bet_side == "home" else not home_covers)
+
         first_seen_entry = first_seen.get(g["game_id"])
         spread_move = None
         line_moved_significantly = False
         if has_odds and first_seen_entry is not None:
             spread_move = round(current_spread - first_seen_entry["spread"], 2)
-            line_moved_significantly = abs(spread_move) >= LINE_MOVE_FLAG_THRESHOLD
+            # A finished game's line can't be acted on anymore, so don't warn about it.
+            line_moved_significantly = (not completed) and abs(spread_move) >= LINE_MOVE_FLAG_THRESHOLD
 
         records.append({
             "season": 2026, "week": int(g["week"]), "gameday": g["gameday"], "game_id": g["game_id"],
@@ -126,6 +142,8 @@ def main():
             "first_seen_date": first_seen_entry["date"] if first_seen_entry else None,
             "spread_move": spread_move,
             "line_moved_significantly": line_moved_significantly,
+            "completed": bool(completed), "home_score": home_score, "away_score": away_score,
+            "bet_won": bet_won, "push": push,
         })
 
     if missing_teams:

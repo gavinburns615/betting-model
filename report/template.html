@@ -205,7 +205,6 @@
   .pill.neutral { background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--border); }
   .pill.miss { background: transparent; color: var(--critical); border: 1px solid var(--critical); }
   .pill.warn { background: transparent; color: var(--warning); border: 1px solid var(--warning); }
-  .line-move { display: block; font-size: 10.5px; margin-top: 2px; color: var(--warning); font-weight: 600; }
   .pill.future { background: var(--accent-bg); color: var(--accent-ink); }
 
   .game-row .edge { display: block; font-size: 10.5px; margin-top: 2px; letter-spacing: 0.01em; }
@@ -220,6 +219,25 @@
   .game-row.is-top2 + .game-row.is-top2 { margin-top: 2px; }
   .top2-star { display: inline-flex; align-items: center; gap: 4px; font-family: "IBM Plex Mono", monospace; font-size: 10px; font-weight: 700; letter-spacing: 0.04em; color: var(--accent-ink); text-transform: uppercase; margin-right: 6px; }
   .top2-star::before { content: "\2605"; font-size: 11px; }
+
+  /* top-2 scoreboard (per selected season) */
+  .t2-board { margin-top: 18px; padding: 16px 18px; border-radius: 10px; background: var(--accent-bg); border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--border)); }
+  .t2-board .t2-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .t2-board .t2-title { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent-ink); }
+  .t2-board .t2-title::before { content: "\2605  "; }
+  .t2-board .t2-sub { font-size: 12.5px; color: var(--muted); }
+  .t2-nums { display: flex; gap: 28px; flex-wrap: wrap; margin-top: 10px; }
+  .t2-nums .v { font-family: "IBM Plex Mono", monospace; font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--ink); line-height: 1.2; }
+  .t2-nums .v.pos { color: var(--good); }
+  .t2-nums .v.neg { color: var(--critical); }
+  .t2-nums .l { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+  .t2-weeks { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px; }
+  .t2-wk { font-family: "IBM Plex Mono", monospace; font-size: 12px; padding: 4px 9px; border-radius: 6px; background: var(--surface); border: 1px solid var(--border); color: var(--ink-2); cursor: pointer; white-space: nowrap; }
+  .t2-wk b { font-weight: 600; }
+  .t2-wk.win b { color: var(--good); }
+  .t2-wk.loss b { color: var(--critical); }
+  .t2-wk.pending { color: var(--muted); }
+  .t2-wk.active { border-color: var(--accent); }
 
   /* top-2 subsection */
   .top2-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 22px; margin-top: 20px; }
@@ -278,10 +296,10 @@
       <div class="refresh-body">
         <p>This page is a saved snapshot &mdash; a web page like this can't pull live odds from inside your browser, so the refresh happens on the computer that built it. Two ways:</p>
         <ol>
-          <li>Run <code class="mono">venv/bin/python3 src/refresh.py</code> in the repo. It re-pulls schedules, final scores and current lines, re-grades any games that have been played, flags lines that moved, and rebuilds this page.</li>
+          <li>Run <code class="mono">venv/bin/python3 src/refresh.py</code> in the repo. It re-pulls schedules, final scores and current lines, re-grades any games that have been played, and rebuilds this page.</li>
           <li>Or ask Claude to "refresh the report" &mdash; it runs the same command and republishes the live link.</li>
         </ol>
-        <p>What a refresh changes: prices, the worth-it check, line-moved flags, and graded results. What it doesn't: which side is picked. That comes from the signal alone, not the spread.</p>
+        <p>What a refresh changes: prices, the worth-it check, and graded results. What it doesn't: which side is picked. That comes from the signal alone, not the spread.</p>
       </div>
     </details>
   </header>
@@ -300,6 +318,7 @@
       <div class="season-tabs" id="season-tabs"></div>
       <div class="season-record" id="season-record"></div>
     </div>
+    <div class="t2-board" id="t2-board"></div>
     <div class="week-select-row">
       <label for="week-select">Week</label>
       <select id="week-select"></select>
@@ -476,6 +495,57 @@ function liveRecord(games) {
 }
 function fmtRecord(r) { return `${r.wins}-${r.losses}${r.pushes ? `-${r.pushes}` : ''}`; }
 
+function unitsFor(games) {
+  return games.reduce((u, g) => {
+    if (g.push || g.bet_won === null || g.bet_won === undefined) return u;
+    if (!g.bet_won) return u - 1;
+    const o = g.bet_odds;
+    return u + (o === null || o === undefined ? 100 / 110 : (o >= 0 ? o / 100 : 100 / Math.abs(o)));
+  }, 0);
+}
+
+// Scoreboard for the selected season's top-2 picks: overall record plus a chip per week.
+function renderTop2Board() {
+  const el = document.getElementById('t2-board');
+  const isFuture = activeScope === 'future';
+  const top = GAMES_LOG.filter(g => g.season === activeSeason && g.future === isFuture && g.is_top2);
+  const done = top.filter(g => !isFuture || g.completed);
+  const rec = liveRecord(done.map(g => isFuture ? g : { ...g, completed: true }));
+  const decided = rec.wins + rec.losses;
+  const units = unitsFor(done);
+  const pct = decided ? `${(rec.wins / decided * 100).toFixed(1)}%` : '&mdash;';
+  const uCls = units > 0 ? 'pos' : units < 0 ? 'neg' : '';
+
+  const allWeeks = [...new Set(top.map(g => g.week))].sort((a, b) => a - b);
+  // Played weeks plus the next upcoming one -- no row of empty future weeks.
+  const nextOpen = allWeeks.find(w => top.some(g => g.week === w && isFuture && !g.completed));
+  const weeks = allWeeks.filter(w => w <= (nextOpen ?? Infinity));
+  const chips = weeks.map(w => {
+    const wg = top.filter(g => g.week === w);
+    const played = wg.filter(g => !isFuture || g.completed);
+    let cls = 'pending', txt = 'upcoming';
+    if (played.length) {
+      const r = liveRecord(played.map(g => isFuture ? g : { ...g, completed: true }));
+      txt = fmtRecord(r) + (played.length < wg.length ? '*' : '');
+      cls = r.wins > r.losses ? 'win' : r.losses > r.wins ? 'loss' : '';
+    }
+    return `<button class="t2-wk ${cls}${w === activeWeek ? ' active' : ''}" data-week="${w}">W${w} <b>${txt}</b></button>`;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="t2-head"><span class="t2-title">Top 2 picks &middot; ${activeSeason}</span><span class="t2-sub">each week's two highest-conviction bets, 1 unit each</span></div>
+    <div class="t2-nums">
+      <div><div class="v">${rec.played ? fmtRecord(rec) : '0-0'}</div><div class="l">record${rec.pushes ? ' (W-L-P)' : ''}</div></div>
+      <div><div class="v">${pct}</div><div class="l">win rate</div></div>
+      <div><div class="v ${uCls}">${units >= 0 ? '+' : ''}${units.toFixed(2)}u</div><div class="l">units at listed odds</div></div>
+    </div>
+    <div class="t2-weeks">${chips}</div>`;
+  el.querySelectorAll('.t2-wk').forEach(b => b.addEventListener('click', () => {
+    activeWeek = Number(b.dataset.week);
+    renderWeekSelect(); renderWeekGroups();
+  }));
+}
+
 function renderScopeTabs() {
   const el = document.getElementById('scope-tabs');
   el.innerHTML = '';
@@ -501,7 +571,7 @@ function renderScopeTabs() {
       ? `<b>Live 2026 record so far: ${fmtRecord(rec)}</b> (top picks: ${fmtRecord(top)}) &mdash; ${rec.played} games is far too few to say anything about whether the signal works; it just shows how the picks are doing in real time. `
       : '';
     banner.className = 'future-banner show';
-    banner.innerHTML = `${recHtml}Games with a score have been played and are graded the same way as the historical log; the rest haven't been played yet. Lines marked "TBD" haven't been posted by sportsbooks &mdash; the side is still picked from the signal alone; it just can't be priced until a line exists. <b>Odds shown are a snapshot from ${DATA_ASOF}</b>, not live &mdash; use <i>Refresh data</i> above for how to update them. The signal uses no injury or 2026 roster/trade data, and hasn't yet absorbed any 2026 games &mdash; it's built entirely from each team's 2025 play-by-play. <b>A pick's side never changes when a line moves</b> &mdash; a game marked <span class="pill warn" style="padding:2px 7px;">Line moved</span> has shifted &ge;1 point since first tracked, which usually means real news broke (injury, weather, etc.); treat those as needing a manual second look, not as still-valid picks.`;
+    banner.innerHTML = `${recHtml}Games with a score have been played and are graded the same way as the historical log; the rest haven't been played yet. Lines marked "TBD" haven't been posted by sportsbooks &mdash; the side is still picked from the signal alone; it just can't be priced until a line exists. <b>Odds shown are a snapshot from ${DATA_ASOF}</b>, not live &mdash; use <i>Refresh data</i> above for how to update them. The signal uses no injury or 2026 roster/trade data, and hasn't yet absorbed any 2026 games &mdash; it's built entirely from each team's 2025 play-by-play.`;
   } else {
     banner.className = 'future-banner';
   }
@@ -539,6 +609,7 @@ function renderWeekSelect() {
 }
 
 function renderWeekGroups() {
+  renderTop2Board();
   const seasonGames = GAMES_LOG.filter(g => g.season === activeSeason && g.future === (activeScope === 'future'));
   const recordEl = document.getElementById('season-record');
 
@@ -603,13 +674,8 @@ function renderWeekGroups() {
       } else if (activeScope === 'future') {
         matchupHtml = `${star}${g.away_team} @ ${g.home_team}`;
         const oddsStr = g.has_odds ? `${fmtOdds(g.bet_odds)} &middot; signal ${g.home_signal.toFixed(3)}h / ${g.away_signal.toFixed(3)}a` : `no line yet &middot; signal ${g.home_signal.toFixed(3)}h / ${g.away_signal.toFixed(3)}a`;
-        const moveHtml = g.line_moved_significantly
-          ? `<span class="line-move">line moved ${g.spread_move >= 0 ? '+' : ''}${g.spread_move} pts since ${g.first_seen_date} &mdash; pick not re-evaluated</span>`
-          : '';
-        betHtml = `${pick} ${pickLine(g)}<span class="prob">${oddsStr}</span>${edgeHtml(g)}${moveHtml}`;
-        pillHtml = g.line_moved_significantly
-          ? `<div class="pill warn">Line moved</div>`
-          : `<div class="pill future">Predicted</div>`;
+        betHtml = `${pick} ${pickLine(g)}<span class="prob">${oddsStr}</span>${edgeHtml(g)}`;
+        pillHtml = `<div class="pill future">Predicted</div>`;
       } else {
         matchupHtml = `${star}${g.away_team} @ ${g.home_team}<span class="score">${g.away_score.toFixed(0)}&ndash;${g.home_score.toFixed(0)}</span>`;
         betHtml = `${pick} ${pickLine(g)}<span class="prob">${fmtOdds(g.bet_odds)} &middot; tune-set rule ${(g.bet_prob*100).toFixed(0)}%</span>${edgeHtml(g)}`;

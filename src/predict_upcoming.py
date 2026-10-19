@@ -168,14 +168,6 @@ def main():
     n_with_odds = sum(r["has_odds"] for r in records)
     print(f"{n_with_odds} of {len(records)} 2026 games have market lines posted so far")
 
-    moved = [r for r in records if r["line_moved_significantly"]]
-    if moved:
-        print(f"\n{len(moved)} game(s) with a line move >= {LINE_MOVE_FLAG_THRESHOLD} pts since first seen "
-              f"(pick direction is NOT re-evaluated -- flagged for manual review only):")
-        for r in moved:
-            pick_team = r["home_team"] if r["bet_side"] == "home" else r["away_team"]
-            print(f"  {r['away_team']} @ {r['home_team']}: pick {pick_team}, "
-                  f"{r['first_seen_spread']:+.1f} -> {r['spread_line']:+.1f} ({r['spread_move']:+.1f})")
     print("\nWeek 1 predictions:")
     for r in records:
         if r["week"] == 1:

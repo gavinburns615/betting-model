@@ -31,13 +31,13 @@ built. Odds move throughout the week (a 9-day-old pull had already moved on
 half of week 1's lines), so refresh before relying on any price:
 
 ```bash
-venv/bin/python3 src/refresh.py     # re-pulls schedules/scores/lines, re-grades played games, flags line moves, rebuilds the report
+venv/bin/python3 src/refresh.py     # re-pulls schedules/scores/lines, re-grades played games, rebuilds the report
 ```
 
 There's no working "refresh" button inside the page itself — the page runs in
 a sandbox that can't fetch live data from the browser, so the header's
 *Refresh data* button just explains this and shows the command. A refresh
-updates prices, the worth-it check, line-move flags, and graded results
+updates prices, the worth-it check, and graded results
 (finished 2026 games are scored against their pick, with a running live
 record — a real forward test, though tiny so far). It does **not** fold newly
 played 2026 games into the signal itself, which is still built entirely from
@@ -45,14 +45,10 @@ each team's 2025 play-by-play, with no injury or roster/trade data.
 
 **Important: a pick's side never changes when the line moves.** The side is
 decided once, purely from the signal gap between the two teams — the spread
-is only used afterward to price it. `predict_upcoming.py` records the
-spread the first time it ever sees odds for a game (`first_seen_spreads.json`,
-never overwritten) and flags any game whose line has since moved ≥1 point —
-almost always a sign of real news (an injury, weather, a lineup change) the
-signal has no way to see. The report marks these "Line moved" rather than
-silently keeping a pick that may no longer make sense; it's a caution flag
-for manual review, not an automatic re-pick. (Checked on a real refresh: 22
-spreads moved by a point or more since first tracked; 0 pick sides changed.)
+is only used afterward to price it. Lines move often during the week, so the
+report doesn't flag moves; `predict_upcoming.py` still records each game's
+first-seen spread (`first_seen_spreads.json`) and the move since, in
+`upcoming_predictions.json`, if you want to check one.
 
 ## How it's built
 

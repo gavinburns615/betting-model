@@ -3,15 +3,14 @@
     venv/bin/python3 src/refresh.py
 
 Re-pulls schedules/scores/lines, rebuilds the joined dataset, regenerates the
-current-season picks (grading any games that have been played and flagging
-lines that moved), then rebuilds report/presnap_edge_backtest.html from
+current-season picks (grading any games that have been played), then rebuilds report/presnap_edge_backtest.html from
 report/template.html. Historical (2020-2025) results don't change between
 refreshes; they're rebuilt from the saved backtest so the report is fully
 reproducible from code.
 
 What a refresh does NOT do: change which side a pick is on. The side comes from
-the signal alone (see predict_upcoming.py); prices, the worth-it check, line-move
-flags and graded results are what update. It also doesn't fold newly played 2026
+the signal alone (see predict_upcoming.py); prices, the worth-it check and graded
+results are what update. It also doesn't fold newly played 2026
 games into the signal itself -- that lives in the separate pass-run repo's
 play-by-play and would need to be re-run there.
 """
@@ -108,10 +107,8 @@ def main():
 
     cur = [r for r in combined if r["future"]]
     graded = [r for r in cur if r["completed"] and r["bet_won"] is not None]
-    moved = [r for r in cur if r["line_moved_significantly"]]
     print(f"\nRefreshed {today}: {len(cur)} current-season games, {sum(r['has_odds'] for r in cur)} priced, "
-          f"{len(graded)} graded ({sum(r['bet_won'] for r in graded)}-{sum(not r['bet_won'] for r in graded)}), "
-          f"{len(moved)} with a flagged line move.")
+          f"{len(graded)} graded ({sum(r['bet_won'] for r in graded)}-{sum(not r['bet_won'] for r in graded)}).")
     print(f"Wrote {REPORT_PATH}")
 
 
